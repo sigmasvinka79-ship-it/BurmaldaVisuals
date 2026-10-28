@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "burmaldavisuals",
+  "version": "${version}",
+  "name": "BurmaldaVisuals",
+  "description": "Красивое меню на Right Shift с визуальными функциями: Target ESP, Jump Circle, Trail.",
+  "authors": ["Burmalda"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.burmalda.visuals.BurmaldaVisualsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
